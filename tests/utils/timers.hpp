@@ -1,3 +1,9 @@
+/*
+ * Written by Andreas Bonini
+ */
+#ifndef TIMERS_HPP_
+#define TIMERS_HPP_
+
 #ifdef _WIN32
 #include <Windows.h>
 #else
@@ -45,3 +51,5 @@ uint64 GetTimeMs64()
  return ret;
 #endif
 }
+
+#endif
